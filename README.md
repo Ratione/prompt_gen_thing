@@ -6,6 +6,8 @@ The Modular Prompt Engineering System is like a "mix and match" toolkit for crea
 
 Think of it like building with LEGO blocks instead of carving a sculpture from a single stone.
 
+I generated this, after some effort, using Claude Sonnet 3.7 w/ Extended thinking. This the result of a few recursive itterations, and is implemented with all the finesse of a sledgehammer. Critically, however, it does appear to work, with rather impressive results. 
+
 ## The Core Concept in Simple Terms
 
 **Traditional Approach**: Write one big, comprehensive prompt with everything included.
@@ -19,6 +21,8 @@ Think of it like building with LEGO blocks instead of carving a sculpture from a
 - 👍 Update individual modules without changing everything
 
 ## Three Main Scenarios
+
+![Modular Prompt Engineering System](https://github.com/user-attachments/assets/900a533e-e8d6-4da4-bcc4-920e3287e98c)
 
 ### 1. Creating a New Prompt
 
@@ -95,8 +99,11 @@ If you need:
 - **Detailed Documentation**: Add the deliverables-module
 - **More Efficiency**: Add the optimization-principles-module
 
+
+
 ## The Bottom Line
 
 The modular system is about working smarter, not harder. Instead of reinventing the wheel each time, you build a library of prompt engineering techniques that can be mixed and matched for any project.
 
 It's like having a toolbox instead of a single multi-tool - you get exactly what you need without carrying around what you don't.
+
