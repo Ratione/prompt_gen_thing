@@ -1,7 +1,5 @@
 # Simplified Explanation: The Modular Prompt Engineering System
 
-## What Is It?
-
 The Modular Prompt Engineering System is like a "mix and match" toolkit for creating effective AI prompts. Instead of writing one giant prompt with everything in it, you break your instructions into specialized modules that can be combined as needed.
 
 Think of it like building with LEGO blocks instead of carving a sculpture from a single stone.
@@ -99,7 +97,20 @@ If you need:
 - **Detailed Documentation**: Add the deliverables-module
 - **More Efficiency**: Add the optimization-principles-module
 
+## Using this as a prompt generator
 
+I've included a file called "recursion-prompt.md". I used it to generated a prompt for another project. Using Claude Sonnet, I created a project (ChatGPT has a similar function), pasted the contents of that file into "Set project instructions", and then started the first chat in that project with the following text:
+
+"
+Activate Modules:
+1. goal-exploration
+2. xml-structure
+3. extended-thinking
+4. prompt-evolution
+5. conversation-management
+"
+
+I then just 'spoke' with the LLM, in normal english, explaining my project and what I my goals were. It then outputted a prompt, that I then used in the "Set project instructions" box of a *new* project. The first project becomes my Prompt-Generator, and I use it's output as the Prompt for new projects. 
 
 ## The Bottom Line
 
