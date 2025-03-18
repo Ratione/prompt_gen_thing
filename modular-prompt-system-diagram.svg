@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Modular Prompt Engineering System</text>
+  
+  <!-- Initial Decision Node -->
+  <rect x="400" y="70" width="200" height="60" rx="10" fill="#4285f4" />
+  <text x="500" y="105" font-family="Arial" font-size="16" fill="white" text-anchor="middle">What are you trying to do?</text>
+  
+  <!-- Main branches -->
+  <line x1="500" y1="130" x2="200" y2="180" stroke="#333" stroke-width="2" />
+  <line x1="500" y1="130" x2="500" y2="180" stroke="#333" stroke-width="2" />
+  <line x1="500" y1="130" x2="800" y2="180" stroke="#333" stroke-width="2" />
+  
+  <!-- Option 1: Create New Prompt -->
+  <rect x="100" y="180" width="200" height="50" rx="10" fill="#34a853" />
+  <text x="200" y="210" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Create a New Prompt</text>
+  
+  <!-- Option 2: Optimize Existing Prompt -->
+  <rect x="400" y="180" width="200" height="50" rx="10" fill="#fbbc05" />
+  <text x="500" y="210" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Optimize Existing Prompt</text>
+  
+  <!-- Option 3: Manage Long Project -->
+  <rect x="700" y="180" width="200" height="50" rx="10" fill="#ea4335" />
+  <text x="800" y="210" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Manage Long-Term Project</text>
+  
+  <!-- Create New Prompt branches -->
+  <line x1="200" y1="230" x2="200" y2="280" stroke="#333" stroke-width="2" />
+  
+  <!-- Optimize Existing Prompt branches -->
+  <line x1="500" y1="230" x2="500" y2="280" stroke="#333" stroke-width="2" />
+  
+  <!-- Manage Long Project branches -->
+  <line x1="800" y1="230" x2="800" y2="280" stroke="#333" stroke-width="2" />
+  
+  <!-- Create New Prompt: Module Selection -->
+  <rect x="80" y="280" width="240" height="100" rx="10" fill="#d0e8d0" stroke="#34a853" stroke-width="2" />
+  <text x="200" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Activate These Modules:</text>
+  <text x="200" y="325" font-family="Arial" font-size="12" text-anchor="middle">1. goal-exploration-module</text>
+  <text x="200" y="345" font-family="Arial" font-size="12" text-anchor="middle">2. xml-structure-module</text>
+  <text x="200" y="365" font-family="Arial" font-size="12" text-anchor="middle">3. extended-thinking-module</text>
+  
+  <!-- Optimize Existing Prompt: Module Selection -->
+  <rect x="380" y="280" width="240" height="100" rx="10" fill="#fff0d0" stroke="#fbbc05" stroke-width="2" />
+  <text x="500" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Activate These Modules:</text>
+  <text x="500" y="325" font-family="Arial" font-size="12" text-anchor="middle">1. optimization-principles-module</text>
+  <text x="500" y="345" font-family="Arial" font-size="12" text-anchor="middle">2. documentation-integration-module</text>
+  <text x="500" y="365" font-family="Arial" font-size="12" text-anchor="middle">3. prompt-evolution-module</text>
+  
+  <!-- Manage Long Project: Module Selection -->
+  <rect x="680" y="280" width="240" height="100" rx="10" fill="#fad0d0" stroke="#ea4335" stroke-width="2" />
+  <text x="800" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Activate These Modules:</text>
+  <text x="800" y="325" font-family="Arial" font-size="12" text-anchor="middle">1. conversation-management-module</text>
+  <text x="800" y="345" font-family="Arial" font-size="12" text-anchor="middle">2. goal-exploration-module</text>
+  <text x="800" y="365" font-family="Arial" font-size="12" text-anchor="middle">3. prompt-evolution-module</text>
+  
+  <!-- Implementation Steps -->
+  <line x1="200" y1="380" x2="200" y2="430" stroke="#333" stroke-width="2" />
+  <line x1="500" y1="380" x2="500" y2="430" stroke="#333" stroke-width="2" />
+  <line x1="800" y1="380" x2="800" y2="430" stroke="#333" stroke-width="2" />
+  
+  <!-- Create New Prompt: Implementation Steps -->
+  <rect x="50" y="430" width="300" height="160" rx="10" fill="white" stroke="#34a853" stroke-width="2" />
+  <text x="200" y="450" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Implementation Steps:</text>
+  <text x="70" y="475" font-family="Arial" font-size="12" text-anchor="start">1. Explore user goals through strategic questions</text>
+  <text x="70" y="500" font-family="Arial" font-size="12" text-anchor="start">2. Design XML structure with proper tags</text>
+  <text x="70" y="525" font-family="Arial" font-size="12" text-anchor="start">3. Add examples (multishot prompting)</text>
+  <text x="70" y="550" font-family="Arial" font-size="12" text-anchor="start">4. Implement extended thinking patterns</text>
+  <text x="70" y="575" font-family="Arial" font-size="12" text-anchor="start">5. Optimize for token efficiency</text>
+  
+  <!-- Optimize Existing Prompt: Implementation Steps -->
+  <rect x="350" y="430" width="300" height="160" rx="10" fill="white" stroke="#fbbc05" stroke-width="2" />
+  <text x="500" y="450" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Implementation Steps:</text>
+  <text x="370" y="475" font-family="Arial" font-size="12" text-anchor="start">1. Analyze current prompt structure</text>
+  <text x="370" y="500" font-family="Arial" font-size="12" text-anchor="start">2. Identify redundancy and inefficiency</text>
+  <text x="370" y="525" font-family="Arial" font-size="12" text-anchor="start">3. Apply documentation best practices</text>
+  <text x="370" y="550" font-family="Arial" font-size="12" text-anchor="start">4. Test alternative versions</text>
+  <text x="370" y="575" font-family="Arial" font-size="12" text-anchor="start">5. Implement progressive refinements</text>
+  
+  <!-- Manage Long Project: Implementation Steps -->
+  <rect x="650" y="430" width="300" height="160" rx="10" fill="white" stroke="#ea4335" stroke-width="2" />
+  <text x="800" y="450" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Implementation Steps:</text>
+  <text x="670" y="475" font-family="Arial" font-size="12" text-anchor="start">1. Set up conversation management</text>
+  <text x="670" y="500" font-family="Arial" font-size="12" text-anchor="start">2. Create modular artifacts for each component</text>
+  <text x="670" y="525" font-family="Arial" font-size="12" text-anchor="start">3. Use breakpoints at natural transitions</text>
+  <text x="670" y="550" font-family="Arial" font-size="12" text-anchor="start">4. Maintain reference index of modules</text>
+  <text x="670" y="575" font-family="Arial" font-size="12" text-anchor="start">5. Document progress and decisions</text>
+  
+  <!-- Special Needs Question -->
+  <rect x="400" y="630" width="200" height="60" rx="10" fill="#4285f4" />
+  <text x="500" y="665" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Special Needs?</text>
+  
+  <!-- Special Needs branches -->
+  <line x1="400" y1="660" x2="300" y2="700" stroke="#333" stroke-width="2" />
+  <line x1="500" y1="690" x2="500" y2="700" stroke="#333" stroke-width="2" />
+  <line x1="600" y1="660" x2="700" y2="700" stroke="#333" stroke-width="2" />
+  
+  <!-- Option 1: Need Examples -->
+  <rect x="150" y="700" width="200" height="40" rx="10" fill="#673ab7" />
+  <text x="250" y="725" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Need Pattern Examples</text>
+  
+  <!-- Option 2: Need Documentation -->
+  <rect x="400" y="700" width="200" height="40" rx="10" fill="#009688" />
+  <text x="500" y="725" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Need Detailed Documentation</text>
+  
+  <!-- Option 3: Need Efficiency -->
+  <rect x="650" y="700" width="200" height="40" rx="10" fill="#ff5722" />
+  <text x="750" y="725" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Need More Efficiency</text>
+  
+  <!-- Additional Modules -->
+  <line x1="250" y1="740" x2="250" y2="760" stroke="#333" stroke-width="2" />
+  <line x1="500" y1="740" x2="500" y2="760" stroke="#333" stroke-width="2" />
+  <line x1="750" y1="740" x2="750" y2="760" stroke="#333" stroke-width="2" />
+  
+  <rect x="150" y="760" width="200" height="30" rx="5" fill="#d1c4e9" stroke="#673ab7" stroke-width="2" />
+  <text x="250" y="780" font-family="Arial" font-size="12" text-anchor="middle">Add multishot-prompting-module</text>
+  
+  <rect x="400" y="760" width="200" height="30" rx="5" fill="#b2dfdb" stroke="#009688" stroke-width="2" />
+  <text x="500" y="780" font-family="Arial" font-size="12" text-anchor="middle">Add deliverables-module</text>
+  
+  <rect x="650" y="760" width="200" height="30" rx="5" fill="#ffccbc" stroke="#ff5722" stroke-width="2" />
+  <text x="750" y="780" font-family="Arial" font-size="12" text-anchor="middle">Add optimization-principles-module</text>
+</svg>
